@@ -1,0 +1,11 @@
+[
+    {
+        "IndexName": "EmailIndex",
+        "KeySchema": [
+            {"AttributeName": "email", "KeyType": "HASH"}
+        ],
+        "Projection": {
+            "ProjectionType": "ALL"
+        }
+    }
+]
